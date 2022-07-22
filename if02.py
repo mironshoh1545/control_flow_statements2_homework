@@ -1,6 +1,10 @@
+def mx(a,b):
+    if a < b:
+        return a
+    return b
 def main(a,b,c):
     """
-    Find the smallest of the numbers.
+    Find the largest of the numbers.
     Args:
         a: First number.
         b: Second number.
@@ -8,4 +12,6 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    mn = mx(a, b)
+    mn = mx(mn, c)
+    return mn

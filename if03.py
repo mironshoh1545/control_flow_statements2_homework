@@ -1,3 +1,11 @@
+def mx(a,b):
+    if a > b:
+        return a
+    return b
+def mn(a,b):
+    if a < b:
+        return a
+    return b
 def main(a,b,c):
     """
     Determine the number between large and small.
@@ -8,4 +16,8 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    mx1 = mx(a, b)
+    mx1 = mx(mx1, c)
+    mn1 = mn(a, b)
+    mn1 = mn(mn1, c)
+    return mx1 - mn1
