@@ -20,4 +20,4 @@ def main(a,b,c):
     mx1 = mx(mx1, c)
     mn1 = mn(a, b)
     mn1 = mn(mn1, c)
-    return mx1 - mn1
+    return a + b + c - mx1 - mn1

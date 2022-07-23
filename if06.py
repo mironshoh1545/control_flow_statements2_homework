@@ -15,11 +15,11 @@ def main(n):
     m = mx(m, x5)
     
     if m == x1 :
-        return 0
+        return 5
     elif m == x2:
-        return 1
+        return 4
     elif m == x3:
-        return 2
-    elif m == x4:
         return 3
-    return 4
+    elif m == x4:
+        return 2
+    return 1
